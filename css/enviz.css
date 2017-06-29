@@ -1,0 +1,32 @@
+@media(max-width:766px) {
+  body {
+    padding-top: 5.2rem;
+  }
+}
+
+@media(min-width:767px) {
+  body {
+    padding-top: 9.2rem;
+  }
+}
+
+body {
+  font-family: sans-serif !important;
+}
+
+.bg-green {background-color: #7fb714 !important;}
+.bg-grey {background-color: #e0e0e0 !important;}
+.bg-blue-grey {background-color: #37474f !important;}
+
+.color-green {color: #7fb714 !important;}
+.color-white {color: white;}
+
+.padding-top-lg {padding-top: 10rem;}
+.padding-md {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.container > p {
+  font-size: 2rem;
+}
