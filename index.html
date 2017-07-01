@@ -7,6 +7,8 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Envíz Kft.</title>
 
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+
     <!-- jQuery 3.2.1 -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -21,11 +23,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <!-- Font Awesome -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
 
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
+    <script type="js/enviz.js"></script>
     <link rel="stylesheet" href="css/scrolling-nav.css">
     <link rel="stylesheet" href="css/enviz.css">
     <link rel="stylesheet" href="css/hover-min.css" media="all">
@@ -39,9 +42,10 @@
     <![endif]-->
   </head>
   <body>
+
+    <!-- Start of Navbar -->
+    <!-- ======================================================================================================================================================= -->
     <div class="container-fluid">
-
-
     <!-- Navigation -->
       <nav class="navbar navbar-default navbar-fixed-top box-shadow" role="navigation">
         <div class="container">
@@ -61,21 +65,20 @@
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="side-margins hvr-bounce-to-right"><a class="nav-link" href="#about">     Kezdőlap       </a>    </li>
                     <li class="side-margins hvr-bounce-to-right"><a class="nav-link" href="#about">     Rólunk       </a>    </li>
+                    <li class="side-margins hvr-bounce-to-right"><a class="nav-link" href="#about">     Referenciáink       </a>    </li>
                     <li class="side-margins hvr-bounce-to-right"><a class="nav-link" href="#services">  Árajánlat    </a>    </li>
                     <li class="side-margins hvr-bounce-to-right"><a class="nav-link" href="#contact">   Elérhetőségeink     </a>    </li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container -->
       </nav>
     </div>
+    <!-- ======================================================================================================================================================= -->
+    <!-- End of Navbar -->
 
 
-    <!-- Carousel -->
-    <!---------------------------------------------------------------------------------------------------------------------------------------------->
-    <!-- Carousel
-    ================================================== -->
+    <!-- Start of Carousel -->
+    <!-- ======================================================================================================================================================= -->
     <div id="myCarousel" class="carousel slide box-shadow" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -94,7 +97,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="second-slide" src="images/drilling2.JPG" alt="Second slide">
+          <img class="second-slide" src="images/drilling2.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Another example headline.</h1>
@@ -120,46 +123,88 @@
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
-    </div><!-- /.carousel -->
+    </div>
+    <!-- ======================================================================================================================================================= -->
+    <!-- End of Carousel -->
 
 
-    <!---------------------------------------------------------------------------------------------------------------------------------------------->
-
-
-    <div class="container-fluid bg-green color-white padding-md" style="height: 50rem;">
+    <div class="container-fluid bg-grey container-padding">
       <div class="container">
-        <h1>
-          Rövid cégismertető
-        </h1>
+        <div class="row">
+          <div class="col-md-8">
+            <p class="text">asdasd</p>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 50%;">
+              <img class="card-img" src="images/hutesfutes.png" style="width: 100%;" alt="">
+              <div class="card-block">
+                <h4 style="card-title">Example</h4>
+                <p class="card-text">asdasdasdasd</p>
+                <a href="#" class="btn btn-primary" style="text-align: center;">Technológia leírása</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="container-fluid bg-grey padding-md" style="height: 50rem;">
+    <div class="container-fluid bg-green padding-md" style="height: 50rem;">
       <div class="container">
         <h1>
           Lorem Ipsum
         </h1>
+        <div class="card" style="width: 20rem;">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="container-fluid bg-blue-grey color-white padding-md">
+    <!-- Start of Footer -->
+    <!-- ======================================================================================================================================================= -->
+    <div class="container-fluid bg-blue-grey color-white padding-md footer-align">
       <footer>
         <div class="row">
-          <div class="col-md-3 text-center">
-            <h3>Lábléc</h3>
-          </div>
-          <div class="col-md-3 text-center">
-            <h3>E-Mail</h3>
-          </div>
-          <div class="col-md-3 text-center">
-            <h3>Telefon</h3>
-          </div>
-          <div class="col-md-3 text-center">
-            <h3>Telephely</h3>
+          <div class="container">
+            <div class="col-md-4">
+              <h3 class="footer-header-margin color-green text-uppercase text-center">Információk</h3>
+
+              <div class="row">
+                <div class="col-md-12 footer-link footer-item text-center"><a href="#" class="hvr-underline-from-left">Rólunk</a></div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 footer-link footer-item text-center"><a href="#" class="hvr-underline-from-left">Referenciák</a></div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12 footer-link footer-item text-center"><a href="#" class="hvr-underline-from-left">Árajánlat</a></div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 footer-link footer-item text-center"><a href="#" class="hvr-underline-from-left">Elérhetőségeink</a></div>
+              </div>
+
+            </div>
+            <div class="col-md-4">
+              <h3 class="footer-header-margin color-green text-uppercase text-center">Térkép</h3>
+              <iframe id="map" style="width: 34rem; height: 20rem; object-postition: center;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2699.0687070450613!2d21.151018215832657!3d47.43010360814643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4747212e64a9a7a7%3A0xd898b8692f671bbe!2zTsOhZHVkdmFyLCBLw7Z2eSBTw6FuZG9yIHV0Y2EgMzUsIDQxODE!5e0!3m2!1shu!2shu!4v1498844739531" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-4">
+              <h3 class="footer-header-margin color-green text-uppercase text-center">Elérhetőségeink</h3>
+                <i class="fa fa-map-marker footer-item">&nbsp&nbsp&nbsp&nbsp <span class="arial-font">Telephely: 4181 Nádudvar, Kövy Sándor utca 35.</span></i><br>
+                <i class="fa fa-phone footer-item">&nbsp&nbsp&nbsp&nbsp <span class="arial-font">Telefon: +36 20 42 69 551</span></i><br>
+                <i class="fa fa-envelope footer-item">&nbsp&nbsp&nbsp&nbsp <span class="arial-font">E-Mail: enviz.kft@invitel.hu</span></i><br>
+                <i class="fa fa-fax footer-item">&nbsp&nbsp&nbsp&nbsp <span class="arial-font">FAX: +36 54 886 708</span></i>
+            </div>
           </div>
         </div>
       </footer>
     </div>
+    <!-- ======================================================================================================================================================= -->
+    <!-- End of Footer -->
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
