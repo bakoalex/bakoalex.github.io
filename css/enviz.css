@@ -26,8 +26,9 @@ body {
 .bg-white {background-color: white !important;}
 
 .color-green {color: #7fb714 !important;}
-.color-white {color: white;}
+.color-white {color: white !important;}
 .color-blue-grey {color: #37474f !important;}
+.color-grey {color: #e0e0e0 !important;}
 
 .padding-top-lg {padding-top: 10rem;}
 .padding-md {
@@ -116,7 +117,15 @@ body {
   margin-bottom: 0 auto !important;
 }
 
-.bg-drilling2{
+.bg-drilling1 {
+  background: url("../images/drilling1.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 30rem;
+
+.bg-drilling2 {
   background-image: url("../images/drilling2.JPG");
   background-size: cover;
   background-repeat: no-repeat;
@@ -127,6 +136,7 @@ body {
   -o-background-size:cover;
   background-size: cover;
   height: 20rem;
+
 }
 .col-md-1{
   margin-left: 3rem !important;
