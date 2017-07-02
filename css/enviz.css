@@ -26,8 +26,9 @@ body {
 .bg-white {background-color: white !important;}
 
 .color-green {color: #7fb714 !important;}
-.color-white {color: white;}
+.color-white {color: white !important;}
 .color-blue-grey {color: #37474f !important;}
+.color-grey {color: #e0e0e0 !important;}
 
 .padding-top-lg {padding-top: 10rem;}
 .padding-md {
@@ -114,4 +115,13 @@ body {
 #chooseus {
   margin-top: 0 auto !important;
   margin-bottom: 0 auto !important;
+}
+
+.bg-drilling1 {
+  background: url("../images/drilling1.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 30rem;
 }
