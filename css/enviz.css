@@ -115,3 +115,12 @@ body {
   margin-top: 0 auto !important;
   margin-bottom: 0 auto !important;
 }
+
+.bg-drilling2{
+  background-image: url("../images/drilling2.JPG");
+  -webkit-background-size: cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size: cover;
+  height: 20rem;
+}
