@@ -89,7 +89,7 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid bg-green color-white">
+    <div class="container-fluid bg-green color-white" style="padding-top: 3rem; padding-bottom: 3rem;">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -97,7 +97,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md12">
+          <div class="col-md-12">
             <p>A földhőszondás rendszerek tervezésének kulcsparamétere a talaj termikus tulajdonságainak ismerete. A 30kW feletti rendszerek esetében javasolt a helyszínen elvégzett mérés az
             ún. geotermikus szondateszt. A geotermikus szondateszt fő előnye a többi módszerrel szemben, hogy helyben történik a mérés az előre letelepített földhőszondában.
             A geotermikus szondateszt során három fontos termikus paraméter kerül meghatározásra: </p>
@@ -140,6 +140,64 @@
               t = teszt kezdetétől eltelt idő (s) <br>
               ΔT = hőmérséklet különbség (K) <br>
               λ = effektív hővezetőképesség (W/mK)
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            Gyakorlatban, a vonalforrás elmélet egy megközelítését alkalmazzák, amelyet Eklöf&Gehlin (1996) javasolt:
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 keplet-szoveg">
+            <img class="img-responsive keplet" src="./images/keplet3.png" alt="keplet3" style="max-height: 10rem; width: auto;">
+          </div>
+          <div class="col-md-4 keplet-szoveg">
+            <p> <br>
+              k	(-)	hőmérséklet gradiens logaritmikus időben <br>
+              Q	(W)	fűtés (a mérőberendezés fűtési teljesítménye) <br>
+              H	(m)	földhőszonda hossza <br>
+              λ 	 effektív hővezetőképesség (W/mK)
+            </p>
+          </div>
+          <div class="col-md-4">
+            <p>
+              abban az esetben érvényes, ha <br>
+            </p>
+            <img class="img-responsive keplet" src="./images/keplet4.png" alt="keplet4" style="max-height: 10rem; width: auto;">
+            <p>
+              (alsó idő kritérium) <br>
+              rb 	 fúrólyuk átmérő (m) <br>
+              α	termikus diffuzivitás = λ/рCp <br>
+              рCp 	 térfogati hőkapacitás (J/Km3) <br>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p>
+              Az úgynevezett „lépcsőzetes kiértékeléssel” a rögzített adatok kiértékelése egy fix kezdeti időtől indul és növekvő adatsorral
+              történik a teszt teljes időtartamára. A hővezetőképesség minden egyes időtartamra kiszámításra és megjelenítésre kerül az idő függvényében.
+              Ez az eljárás egy hasznos eszköz, hogy ellenőrizzük az rögzített adatok minőségét és az eredmények érvényességét.
+            </p>
+            <p>
+              Általában egy ilyen görbe első szakaszában a termikus hővezetőképesség értéke ingadozik felfelé és lefelé,
+              konvergálva egy állandó értékhez és egy vízszintes grafikont eredményez egy tökéletes teszt esetén.
+            </p>
+            <p>
+              Számos esetben a kiértékelés a vonalforrás módszerrel egyszerűen nem megvalósítható. Paraméter variációval lehetséges a hőmérsékleti
+              görbék egyes részeinek kiértékelése, és ez a módszer egy hasznos eszköz,
+              hogy találjunk megoldást tisztázatlan körülmények között is (talajvíz áramlás, áramellátás ingadozása, környezeti hatások stb.).
+            </p>
+            <p>
+              A paraméter variációt kiegészíti a szuperpozíció módszer, mellyel a szondateszt során az ingadozó fűtési teljesítmény jobban követhető.
+              A szuperpozíció módszere változó fűtési teljesítménnyel (és nem átlagos) számol, így a szondateszt eredmények pontosabbak lesznek.
+            </p>
+            <p>
+              A geotermikus szondateszt során meghatározásra kerül az ún. termikus fúrólyuk ellenállás (Rb) is, amely a furat fala és a
+              földhőszonda közötti hőátadást fejezi ki. A termikus fúrólyuk ellenállás értéke függ a földhőszonda csövek elhelyezkedésétől, a szondában keringtetett
+              fagyálló tulajdonságaitól, 
+              a tömedékelő anyag tulajdonságaitól és a tömedékelés kivitelezésének minőségétől. A fúrólyuk termikus ellenállását az alábbi képlettel lehet meghatározni:
             </p>
           </div>
         </div>

@@ -30,7 +30,7 @@
 }
 
 @media(min-width:769px) {
-  .keplet.szoveg {
+  .keplet-szoveg {
     margin-top: 5rem;
     margin-bottom: 5rem;
   }
