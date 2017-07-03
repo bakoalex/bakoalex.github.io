@@ -14,12 +14,25 @@
   body {
     padding-top: 9.2rem;
   }
+
 }
 
 @media(max-width:768px){
   .keplet {
     max-width: 100% !important;
     height: auto !important;
+    vertical-align: middle;
+    display: inline-block;
+  }
+  .keplet-szoveg {
+    text-align: center;
+  }
+}
+
+@media(min-width:769px) {
+  .keplet.szoveg {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
   }
 }
 
