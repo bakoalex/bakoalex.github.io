@@ -16,6 +16,13 @@
   }
 }
 
+@media(max-width:768px){
+  .keplet {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+}
+
 body {
   font-family: 'Open sans', sans-serif !important;
 }
