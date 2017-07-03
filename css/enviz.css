@@ -50,6 +50,12 @@ body {
 .color-blue-grey {color: #37474f !important;}
 .color-grey {color: #e0e0e0 !important;}
 
+.padding-container-tech {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+
 .padding-top-lg {padding-top: 10rem;}
 .padding-md {
   padding-top: 2rem;
@@ -144,6 +150,16 @@ body {
   -o-background-size: cover;
   background-size: cover;
   min-height: 30rem;
+}
+
+.bg-drilling3 {
+  background: url("../images/drilling3.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 30rem;
+}
 
 .bg-drilling2 {
   background-image: url("../images/drilling2.JPG");
