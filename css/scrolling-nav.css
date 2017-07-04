@@ -38,6 +38,7 @@
   padding-bottom: 5px !important;
 }
 
+
 @media (max-width: 1200px) {
     .navbar-header {
         float: none;
@@ -103,5 +104,15 @@
     }
     .top-margin {
       margin-top: 2rem;
+    }
+
+    ul.dropdown-menu > li > a::before {
+      content: "";
+      display: block;
+    }
+
+    ul.dropdown-menu > li > a {
+      left: auto;
+      right: auto;
     }
 }

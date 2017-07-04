@@ -55,12 +55,13 @@ body {
   padding-bottom: 3rem !important;
 }
 
-
 .padding-top-lg {padding-top: 10rem;}
 .padding-md {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+
+
 
 .container > p {
   font-size: 2rem;
@@ -172,9 +173,46 @@ body {
   -o-background-size:cover;
   background-size: cover;
   height: 20rem;
-
 }
 .col-md-1{
   margin-left: 3rem !important;
   width: 5rem !important;
+}
+
+
+/*
+Tech.html oldalon található másodlagos nav bar formázása
+*/
+
+ul.dropdown-menu {
+  border: none;
+  background: #f8f8f8;
+  text-align: right;
+}
+
+.open > .dropdown-menu {
+  border-radius: 2px;
+  margin-top: 2rem;
+}
+
+.navbar-nav > li > .dropdown-menu {
+  margin-top: 1rem !important;
+}
+
+.dropdown-menu {
+  float: right;
+}
+
+.navbar-right .dropdown-menu {
+  left: 0;
+  right: auto;
+}
+
+.dropdown-menu > li > a {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.dropdown-menu > li > a:hover {
+  background-color: white;
 }

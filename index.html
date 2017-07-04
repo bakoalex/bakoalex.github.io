@@ -57,7 +57,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll text-uppercase side-margins" href="#">Envíz Kft.</a>
+                <a class="navbar-brand page-scroll text-uppercase side-margins" href="./index.html">Envíz Kft.</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -65,11 +65,22 @@
                 <ul class="nav navbar-nav navbar-right text-uppercase text-right">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
 
-                    <li class="side-margins hvr-bounce-to-right"><a class="nav-link" href="./aboutus.html">     Rólunk       </a>    </li>
-                    <li class="side-margins hvr-bounce-to-right"><a class="nav-link" href="./tech.html">     Technológiáink       </a>    </li>
-                    <li class="side-margins hvr-bounce-to-right"><a class="nav-link" href="./references.html">     Referenciáink       </a>    </li>
-                    <li class="side-margins hvr-bounce-to-right"><a class="nav-link" href="#services">  Árajánlat    </a>    </li>
-                    <li class="side-margins hvr-bounce-to-right"><a class="nav-link" href="#contact">   Elérhetőségeink     </a>    </li>
+                    <li class="side-margins hvr-underline-from-left"><a class="nav-link" href="./aboutus.html">     Rólunk       </a>    </li>
+                    <!--<li class="side-margins hvr-underline-from-left"><a class="nav-link" href="./tech.html">     Technológiáink       </a>    </li>-->
+                    <li class="dropdown side-margins">
+                      <a id="tech-drop" href="./tech-geotermia.html" role="button" class="dropdown-toggle hvr-underline-from-left" data-toggle="dropdown">Technológiáink</a>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="tech-drop">
+                        <li role="presentation "><a class="hvr-underline-from-left" role="menuitem" tabindex="-1" href="./tech-geotermia.html">Geotermia</a></li>
+                        <li role="presentation"><a class="hvr-underline-from-left" role="menuitem" tabindex="-1" href="#">Szondateszt</a></li>
+                        <li role="presentation"><a class="hvr-underline-from-left" role="menuitem" tabindex="-1" href="#">Napelemes rendszerek</a></li>
+                        <li role="presentation"><a class="hvr-underline-from-left" role="menuitem" tabindex="-1" href="#">Környetetvédelmi szigetelések</a></li>
+                        <!--<li role="presentation" class="divider"></li>-->
+                        <!--<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>-->
+                      </ul>
+                    </li>
+                    <li class="side-margins hvr-underline-from-left"><a class="nav-link" href="./references.html">     Referenciáink       </a>    </li>
+                    <li class="side-margins hvr-underline-from-left"><a class="nav-link" href="#services">  Árajánlat    </a>    </li>
+                    <li class="side-margins hvr-underline-from-left"><a class="nav-link" href="#contact">   Elérhetőségeink     </a>    </li>
                 </ul>
             </div>
         </div>
@@ -265,7 +276,18 @@
                 <div class="col-md-12 footer-link footer-item text-center"><a href="./aboutus.html" class="hvr-underline-from-left">Rólunk</a></div>
               </div>
               <div class="row">
-                <div class="col-md-12 footer-link footer-item text-center"><a href="./tech.html" class="hvr-underline-from-left">Technológiáink</a></div>
+                <div class="col-md-12 footer-link footer-item text-center">
+                  <a href="./tech.html">
+                    <div class="hvr-underline-from-left">
+                      Technológiáink <br>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 footer-link footer-item text-center">
+                  <a href="#" class="hvr-underline-from-left"><i class="fa fa-arrow-circle-right " aria-hidden="true"></i> Geotermia</a> 
+                </div>
               </div>
               <div class="row">
                 <div class="col-md-12 footer-link footer-item text-center"><a href="./references.html" class="hvr-underline-from-left">Referenciák</a></div>
