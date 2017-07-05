@@ -31,6 +31,9 @@
   .border-right-green {
     border-left: 2px solid #7fb714;
   }
+  div.col-md-6.border-left.b-green.mobile {
+    border-left-width: 3px;
+  }
 }
 
 @media(min-width:769px) {
@@ -41,6 +44,7 @@
   .border-right-green {
     border-right: 2px solid #7fb714;
   }
+
 }
 
 body {
