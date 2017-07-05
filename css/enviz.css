@@ -184,20 +184,31 @@ body {
 }
 
 
-/*
-Tech.html oldalon található másodlagos nav bar formázása
-*/
+/**********************************************************
+Technológiáink navigációs sáv legörülő menüjének formázása
+**********************************************************/
 
+/*
+A legördülő listának ne legyen bordere
+A háttere szürke színű legyen > megegyező a navbar hátterével
+A benne található szöveget jobbra zárjuk
+*/
 ul.dropdown-menu {
   border: none;
   background: #f8f8f8;
   text-align: right;
 }
 
+/*
+A legördülő menü ha kinyílik a következő formázásokat alkalmazzuk:
+- Border lekerekítése 2 pixelnyivel
+- Felső margót állítunk be, így megfelelően jelenik meg a navbar nagy és kicsi állapotánál is
+*/
 .open > .dropdown-menu {
   border-radius: 2px;
   margin-top: 2rem;
 }
+
 
 .navbar-nav > li > .dropdown-menu {
   margin-top: 1rem !important;
@@ -225,6 +236,17 @@ ul.dropdown-menu {
   width: 100%;
   height: 30rem;
 }
+
+
+/* Csíkos táblázat színes részének felülírása
+-- Minden páratlan sor háttérszíne zöld legyen (#7fb714)
+-- A páratlan sorokban a betűszín fehér (#000)
+ */
+.table-striped > tbody > tr:nth-of-type(2n+1) {
+  background-color: #7fb714;
+  color: white;
+}
+
 
 /*.protfolio-image {
   position: relative;
