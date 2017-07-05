@@ -1,3 +1,8 @@
-$('body:visible').livequery(function(){
-  alert("Is visible");
-});
+$(".galery-item-overlay").hover(
+  function() {
+    $(this).addClass('.galery-item-description');
+  },
+  function() {
+    $(this).removeClass('.galery-item-description');
+  }
+)

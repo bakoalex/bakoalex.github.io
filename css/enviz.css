@@ -205,6 +205,48 @@ div.row > div.col-md-4.galery > img.img-responsive {
 
 
 /**********************************************************
+Galéria formázása
+**********************************************************/
+.galery-item {
+  position: relative;
+  vertical-align: baseline;
+}
+
+.galery-item-preivew {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.galery-item-preivew > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: none;
+}
+
+.galery-item-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: 2.5rem;
+  opacity: 0;
+  transform: scale(0);
+  transition: all 0.2s;
+}
+
+.galery-item-overlay > .galery-item-description {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  padding: 2rem;
+  text-align: center;
+  transform: translateY(-50%);
+}
+
+/**********************************************************
 Technológiáink navigációs sáv legörülő menüjének formázása
 **********************************************************/
 
@@ -267,6 +309,17 @@ A legördülő menü ha kinyílik a következő formázásokat alkalmazzuk:
   color: white;
 }
 
+.border-left {
+  border-left: 1px solid black;
+}
+
+.border-right {
+  border-right: 1px solid black;
+}
+
+.b-green {
+  border-color: #7fb714;
+}
 
 /*.protfolio-image {
   position: relative;
