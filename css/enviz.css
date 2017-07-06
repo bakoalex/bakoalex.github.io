@@ -40,6 +40,7 @@
   div.col-md-4.col-sm-4.col-xs-4.border {
     /*height: 15%;*/
     border-left: none;
+    text-align: center;
   }
   div.col-md-6.col-sm-6.col-xs-6.border {
     /*height: 15%;*/
