@@ -37,8 +37,13 @@
   .responsive-align-center {
     text-align: center;
   }
-  div.col-md-4.col-sm-4.col-xs-4 {
-    height: 15%;
+  div.col-md-4.col-sm-4.col-xs-4.border {
+    /*height: 15%;*/
+    border-left: none;
+  }
+  div.col-md-6.col-sm-6.col-xs-6.border {
+    /*height: 15%;*/
+    border-left: none;
   }
 }
 
@@ -49,6 +54,13 @@
   }
   .border-right-green {
     border-right: 2px solid #7fb714;
+  }
+
+  div.col-md-4.col-sm-4.col-xs-4.border {
+    border-left: 2px solid #7fb714;
+  }
+  div.col-md-6.col-sm-6.col-xs-6.border {
+    border-left: 2px solid #7fb714;
   }
 
 }
