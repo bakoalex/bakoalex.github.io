@@ -34,6 +34,9 @@
   div.col-md-6.border-left.b-green.mobile {
     border-left-width: 3px;
   }
+  .responsive-align-center {
+    text-align: center;
+  }
 }
 
 @media(min-width:769px) {
@@ -49,6 +52,14 @@
 
 body {
   font-family: 'Open sans', sans-serif !important;
+}
+
+.image-align-center {
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
 }
 
 .bg-green {background-color: #7fb714 !important;}
@@ -73,6 +84,11 @@ body {
   padding-bottom: 2rem;
 }
 
+
+
+.text-bold {
+  font-weight: bold;
+}
 
 
 .container > p {

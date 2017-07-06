@@ -224,13 +224,31 @@
 
     <!-- Összehasonlító táblázat szekció kezdete -->
     <!-- ======================================================================================================================================================= -->
-    <div class="container-fluid bg-white" style="padding-top: 3rem; padding-bottom: 3rem;">
+    <div class="container-fluid bg-white container-padding">
       <div class="container">
         <div class="row">
-          <h2 class="text-center text-uppercase" style="margin-bottom: 3rem;">Összehasonlító táblázat üzemeltetési költség tekintetében</h2>
+          <div class="col-md-12">
+            <h2 class="text-center text-uppercase" style="margin-bottom: 3rem;">Összehasonlító elemzés üzemeltetési költség tekintetében</h2>
+          </div>
         </div>
+
         <div class="row">
-          <h3 class="text-center text-uppercase color-green" style="margin-bottom: 3rem;">Fűtés</h3>
+          <div class="col-md-12">
+            <h3 class="text-center text-uppercase color-green" style="margin-bottom: 3rem; font-weight: bold;">Fűtés</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-white container-padding">
+      <div class="container">
+        <div class="row" style="border-bottom: 2px solid #7fb714;">
+          <div class="col-md-12">
+            <h4>Kiindulási felvett alapadatok</h4>
+          </div>
+        </div>
+
+        <div class="row">
           <div class="col-md-6">
             <p style="margin-top: 1rem;">Fűtő teljesítmény</p>
           </div>
@@ -238,6 +256,7 @@
             <p style="margin-top: 1rem;">69 kW</p>
           </div>
         </div>
+
         <div class="row bg-light-grey">
           <div class="col-md-6">
             <p style="margin-top: 1rem;">Várható éves teljesítmény igény</p>
@@ -246,6 +265,7 @@
             <p style="margin-top: 1rem;">~113.641 kWh / év</p>
           </div>
         </div>
+
         <div class="row">
           <div class="col-md-6">
             <p style="margin-top: 1rem;">Várható éves üzemidő</p>
@@ -254,6 +274,7 @@
             <p style="margin-top: 1rem;">~1650 h</p>
           </div>
         </div>
+
         <div class="row bg-light-grey">
           <div class="col-md-6">
             <p style="margin-top: 1rem;">Hőszivattyús tarifa ára</p>
@@ -262,6 +283,7 @@
             <p style="margin-top: 1rem;">~32.- Ft</p>
           </div>
         </div>
+
         <div class="row">
           <div class="col-md-6">
             <p style="margin-top: 1rem;">Földgáz ára</p>
@@ -270,6 +292,256 @@
             <p style="margin-top: 1rem;">~160.- Ft</p>
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-white container-padding">
+      <div class="container">
+
+        <div class="row" style="border-bottom: 2px solid #7fb714;">
+          <div class="col-md-12">
+            <h4>WPF 66 talajhő – víz hőszivattyú</h4>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <p style="margin-top: 1rem;">Hőszivattyú várható éves teljesítményszáma</p>
+          </div>
+          <div class="col-md-6 border-left b-green mobile">
+            <p style="margin-top: 1rem;">~4,82</p>
+          </div>
+        </div>
+
+        <div class="row bg-light-grey">
+          <div class="col-md-6">
+            <p style="margin-top: 1rem;">Hőszivattyú várható éves teljesítményfelvétele</p>
+          </div>
+          <div class="col-md-6 border-left b-green mobile">
+            <p style="margin-top: 1rem;">(113.641 kWh / év) / 4,82 = ~23.580 kWh /év  </p>
+          </div>
+        </div>
+
+        <div class="row bg-green color-white text-bold">
+          <div class="col-md-6">
+            <p style="margin-top: 1rem;">Várható éves üzemköltség alakulása</p>
+          </div>
+          <div class="col-md-6 border-left b-green mobile">
+            <p style="margin-top: 1rem;">23.580 kWh / év x 32 Ft = ~755.000 Ft</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container-fluid bg-white container-padding">
+      <div class="container">
+
+        <div class="row" style="border-bottom: 2px solid #7fb714;">
+          <div class="col-md-12">
+            <h4>Gázkazán</h4>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <p style="margin-top: 1rem;">Várható éves kazán hatásfok</p>
+          </div>
+          <div class="col-md-6 border-left b-green mobile">
+            <p style="margin-top: 1rem;">~95%</p>
+          </div>
+        </div>
+
+        <div class="row bg-light-grey">
+          <div class="col-md-6">
+            <p style="margin-top: 1rem;">Várható éves gázfelhasználás</p>
+          </div>
+          <div class="col-md-6 border-left b-green mobile">
+            <p style="margin-top: 1rem;">12.660 m3 / év</p>
+          </div>
+        </div>
+
+        <div class="row bg-green color-white text-bold">
+          <div class="col-md-6">
+            <p style="margin-top: 1rem;">Várható éves üzemköltség alakulása</p>
+          </div>
+          <div class="col-md-6 border-left b-green mobile">
+            <p style="margin-top: 1rem;">12.660 m3 / év x 160 Ft = ~2.000.000 Ft</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container-fluid bg-white container-padding">
+        <div class="row">
+          <div class="col-md-12">
+            <h3 class="text-center text-uppercase color-green" style="margin-bottom: 3rem; font-weight: bold;">Hűtés</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-white container-padding">
+      <div class="container">
+        <div class="row" style="border-bottom: 2px solid #7fb714;">
+          <div class="col-md-12">
+            <h4>Kiindulási felvett alapadatok</h4>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <p style="margin-top: 1rem;">Hűtő teljesítmény</p>
+          </div>
+          <div class="col-md-6 border-left b-green mobile">
+            <p style="margin-top: 1rem;">~50 kW</p>
+          </div>
+        </div>
+
+        <div class="row bg-light-grey">
+          <div class="col-md-6">
+            <p style="margin-top: 1rem;">Várható éves teljesítményigény</p>
+          </div>
+          <div class="col-md-6 border-left b-green mobile">
+            <p style="margin-top: 1rem;">~25.000 kWh / év</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <p style="margin-top: 1rem;">Várható éves üzemidő</p>
+          </div>
+          <div class="col-md-6 border-left b-green mobile">
+            <p style="margin-top: 1rem;">~500 h</p>
+          </div>
+        </div>
+
+        <div class="row bg-light-grey">
+          <div class="col-md-6">
+            <p style="margin-top: 1rem;">Hőszivattyús tarifa ára</p>
+          </div>
+          <div class="col-md-6 border-left b-green mobile">
+            <p style="margin-top: 1rem;">~32.- Ft</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <p style="margin-top: 1rem;">Földgáz ára</p>
+          </div>
+          <div class="col-md-6 border-left b-green mobile">
+            <p style="margin-top: 1rem;">~52.- Ft</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-white container-padding">
+      <div class="container">
+
+        <div class="row" style="border-bottom: 2px solid #7fb714;">
+          <div class="col-md-12">
+            <h4>Passzív hűtés, talajhővel</h4>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <p style="margin-top: 1rem;">Talajköri keringető szivattyú várható éves teljesítményfelvétele</p>
+          </div>
+          <div class="col-md-6 border-left b-green mobile">
+            <p style="margin-top: 1rem;">1.500 kWh / év</p>
+          </div>
+        </div>
+
+        <div class="row bg-green color-white text-bold">
+          <div class="col-md-6">
+            <p style="margin-top: 1rem;">Várható éves üzemköltség alakulása</p>
+          </div>
+          <div class="col-md-6 border-left b-green mobile">
+            <p style="margin-top: 1rem;">1.500 kWh / év x 32 Ft = ~50.000 Ft</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container-fluid bg-white container-padding">
+      <div class="container">
+
+        <div class="row" style="border-bottom: 2px solid #7fb714;">
+          <div class="col-md-12">
+            <h4>Folyadékhűtő</h4>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <p style="margin-top: 1rem;">Folyadékhűtő várható éves teljesítményszáma</p>
+          </div>
+          <div class="col-md-6 border-left b-green mobile">
+            <p style="margin-top: 1rem;">~2.6</p>
+          </div>
+        </div>
+
+        <div class="row bg-light-grey">
+          <div class="col-md-6">
+            <p style="margin-top: 1rem;">Folyadékhűtő várható éves teljesítményfelvétele</p>
+          </div>
+          <div class="col-md-6 border-left b-green mobile">
+            <p style="margin-top: 1rem;">(25.000 kWh / év) / 2,6 = 9.600 kWh / év</p>
+          </div>
+        </div>
+
+        <div class="row bg-green color-white text-bold">
+          <div class="col-md-6">
+            <p style="margin-top: 1rem;">Várható éves üzemköltség alakulása</p>
+          </div>
+          <div class="col-md-6 border-left b-green mobile">
+            <p style="margin-top: 1rem;">9.600 kWh / év x 52 Ft = ~500.000 Ft</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container-fluid bg-white container-padding">
+      <div class="container">
+
+        <div class="row" style="border-bottom: 2px solid #7fb714;">
+          <div class="col-md-12">
+            <h3 class="text-center text-uppercase color-green" style="margin-bottom: 3rem; font-weight: bold;">Összegzés</h3>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <p style="margin-top: 1rem;">Hőszivattyús rendszer várható összes költsége hűtés- fűtés</p>
+          </div>
+          <div class="col-md-6 border-left b-green mobile">
+            <p style="margin-top: 1rem;">805 000 Ft/ év</p>
+          </div>
+        </div>
+
+        <div class="row bg-light-grey">
+          <div class="col-md-6">
+            <p style="margin-top: 1rem;">Gázfűtés, folyadékhűtés várható összes költsége</p>
+          </div>
+          <div class="col-md-6 border-left b-green mobile">
+            <p style="margin-top: 1rem;">2 500 000 Ft/ év</p>
+          </div>
+        </div>
+
+        <div class="row bg-green color-white text-bold">
+          <div class="col-md-6">
+            <p style="margin-top: 1rem;">Üzemeltetési költségmegtakarítás összesen</p>
+          </div>
+          <div class="col-md-6 border-left b-green mobile">
+            <p style="margin-top: 1rem;">1 695 000 Ft/ év</p>
+          </div>
+        </div>
+
       </div>
     </div>
     <!-- ======================================================================================================================================================= -->
