@@ -206,8 +206,36 @@ body {
   min-height: 30rem;
 }
 
+.bg-image-carousel {
+  background: url("") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 50rem;
+  height: auto;
+}
+
+.carousel-inner,.carousel,.item,.fill {
+  height:100%;
+  width:100%;
+  background-position:center center;
+}
+
 .bg-leaf1 {
   background-image: url("../images/leaf1.jpeg");
+}
+
+.bg-drilling-tower {
+  background-image: url("../images/drilling-tower.jpg");
+}
+
+.bg-image-drilling1 {
+  background-image: url("../images/drilling1.jpg");
+}
+
+.bg-image-drilling2 {
+  background-image: url("../images/drilling2.JPG");
 }
 
 .bg-sky1 {
