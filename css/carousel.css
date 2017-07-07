@@ -35,3 +35,30 @@
 .carousel-caption {
   display: block !important;
 }
+
+@media(max-width:768px) {
+  .bg-image-carousel {
+    min-height: 300px;
+  }
+  .carousel {
+    height: 300px !important;
+  }
+  .carousel-inner > .item {
+    height: 300px !important;
+  }
+  div.carousel-caption > h1 {
+    font-size: 3rem;
+  }
+}
+
+@media(max-width:1200px) {
+  .carousel {
+    height: 300px !important;
+  }
+  .carousel-inner > .item {
+    height: 300px !important;
+  }
+  div.carousel-caption > h1 {
+    font-size: 3rem;
+  }
+}
