@@ -53,10 +53,18 @@
     border-left: none;
   }
   .bg-image-carousel {
-    min-height: 150px;
+    min-height: 300px;
   }
   .carousel {
-    height: 150px !important;
+    height: 300px !important;
+  }
+
+
+}
+
+@media(max-width:991px) {
+  .border-bottom-contact {
+    border-bottom: 2px solid white;
   }
 }
 
@@ -157,6 +165,12 @@ body {
 
 .text-uppercase {
   text-transform: uppercase;
+}
+
+div.col-md-6.col-sm-6.col-xs-6 > p {
+  margin: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .text-right {
@@ -280,6 +294,11 @@ body {
   background-size: cover;
   min-height: 30rem;
 }
+
+.font-bold {
+  font-weight: bold;
+}
+
 
 .col-md-1{
   margin-left: 3rem !important;
