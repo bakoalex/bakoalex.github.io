@@ -47,10 +47,10 @@
     border-left: none;
   }
   .bg-image-carousel {
-    min-height: 30rem;
+    min-height: 15rem;
   }
   .carousel {
-    height: 30rem !important;
+    height: 15rem !important;
   }
 }
 
