@@ -9,6 +9,12 @@
     width: auto !important;
   }
 
+  .bg-image-carousel {
+    min-height: 30rem;
+  }
+  .carousel {
+    height: 30rem !important;
+  }
 
 }
 
@@ -47,10 +53,10 @@
     border-left: none;
   }
   .bg-image-carousel {
-    min-height: 15rem;
+    min-height: 30rem;
   }
   .carousel {
-    height: 15rem !important;
+    height: 30rem !important;
   }
 }
 
