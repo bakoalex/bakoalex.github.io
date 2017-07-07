@@ -46,6 +46,9 @@
     /*height: 15%;*/
     border-left: none;
   }
+  .bg-image-carousel {
+    min-height: 20rem;
+  }
 }
 
 @media(min-width:769px) {
