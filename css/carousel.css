@@ -31,3 +31,7 @@
    -moz-box-shadow: 0 10px 6px -6px #888;
         box-shadow: 0 10px 6px -6px #888;
 }
+
+.carousel-caption {
+  display: block !important;
+}

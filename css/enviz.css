@@ -233,7 +233,7 @@ div.col-md-6.col-sm-6.col-xs-6 > p {
 }
 
 .bg-image-carousel {
-  background: url("") no-repeat center center fixed;
+  background: url("") no-repeat 50% 50% fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
