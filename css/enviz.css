@@ -264,6 +264,10 @@ div.col-md-6.col-sm-6.col-xs-6 > p {
   background-image: url("../images/drilling2.JPG");
 }
 
+.bg-image-drilling3 {
+  background-image: url("../images/drilling3.jpg");
+}
+
 .bg-sky1 {
   background-image: url("../images/sky1.png");
 }
