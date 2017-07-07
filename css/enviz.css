@@ -230,6 +230,17 @@ div.col-md-6.col-sm-6.col-xs-6 > p {
   -o-background-size: cover;
   background-size: cover;
   min-height: 30rem;
+  height: auto;
+}
+
+.bg-image-galery {
+  background: url("") no-repeat 50% 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 30rem;
+  height: auto;
 }
 
 .bg-image-carousel {
@@ -256,6 +267,14 @@ div.col-md-6.col-sm-6.col-xs-6 > p {
   background-image: url("../images/drilling-tower.jpg");
 }
 
+.bg-image-kornyezetvedelmiszigeteles {
+  background-image: url("../images/kornyezetvedelmiszigeteles.png");
+}
+
+.bg-image-telephely {
+  background-image: url("../images/Telephely.jpg");
+}
+
 .bg-image-drilling1 {
   background-image: url("../images/drilling1.jpg");
 }
@@ -279,6 +298,11 @@ div.col-md-6.col-sm-6.col-xs-6 > p {
   -o-background-size: cover;
   background-size: cover;
   min-height: 30rem;
+}
+
+.galery-wrapper {
+  width: 100%;
+  height: auto;
 }
 
 .bg-drilling3 {
