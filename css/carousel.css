@@ -36,6 +36,14 @@
   display: block !important;
 }
 
+.carousel-image {
+  -webkit-transition: all .5s ease-in-out;
+}
+
+.carousel-image:hover {
+  -webkit-transform: scale(1.1);
+}
+
 @media(max-width:768px) {
   .bg-image-carousel {
     min-height: 300px;
