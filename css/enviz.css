@@ -119,6 +119,19 @@ body {
   padding-bottom: 2rem;
 }
 
+.napelem-adatlap-link {
+  cursor: pointer;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.napelem-adatlap-link > a {
+  text-decoration: none;
+  color: #7fb714;
+}
+
 
 .test {
   font-size: 1.6rem;
