@@ -132,7 +132,6 @@ body {
   color: #7fb714;
 }
 
-
 .test {
   font-size: 1.6rem;
   transition: .5s ease;
@@ -303,6 +302,63 @@ div.col-md-6.col-sm-6.col-xs-6 > p {
 
 .bg-leaf1 {
   background-image: url("../images/leaf1.jpeg");
+}
+
+.bg-talajfuro-berendezes {
+  background-image: url("../images/talajfuro-berendezes.JPG");
+}
+
+.bg-furofej {
+  background-image: url("../images/furofej.JPG");
+}
+
+.bg-oszto-gyujto-akna {
+  background-image: url("../images/oszto-gyujto-akna.JPG");
+}
+
+.bg-munkaterulet {
+  background-image: url("../images/munkaterulet.JPG");
+}
+
+.bg-osszekoto-asas {
+  background-image: url("../images/osszekoto-asas.JPG");
+}
+
+.bg-osztogyujto-kialakitasa {
+  background-image: url("../images/osztogyujto-kialakitasa.JPG");
+}
+
+.bg-kornyezetvedelmi-szigeteles1 {
+  background-image: url("../images/kornyezetvedelmi-szigeteles1.jpg");
+}
+
+.bg-talajszonda-tomedek {
+  background-image: url("../images/talajszonda-tomedek.jpg");
+}
+
+.bg-savallo-osztogyujto {
+  background-image: url("../images/osztogyujto-savallo1.jpg");
+}
+
+.bg-talajszonda-elektromos {
+  background-image: url("../images/talajszonda-furat-elektromos.jpg");
+}
+
+.bg-osszekotoarok {
+  background-image: url("../images/osszekotoarok.jpg");
+}
+
+.bg-osszekotoarok-homok {
+  background-image: url("../images/osszekotoarok-homok.jpg");
+}
+
+
+.bg-furas-furokad {
+  background-image: url("../images/furas-furokad.jpg");
+}
+
+.bg-talajfuro-berendezesek {
+  background-image: url("../images/talajfuro-berendezesek.jpg");
 }
 
 .bg-drilling-tower {
