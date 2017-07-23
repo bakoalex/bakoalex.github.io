@@ -35,7 +35,7 @@
     text-align: center;
   }
   .border-right-green {
-    border-left: 2px solid #80deea;
+    border-left: 2px solid #7fb714;
   }
   div.col-md-6.border-left.b-green.mobile {
     border-left-width: 3px;
@@ -74,7 +74,7 @@
     margin-bottom: 5rem;
   }
   .border-right-green {
-    border-right: 2px solid #80deea;
+    border-right: 2px solid #7fb714;
   }
 
   div.col-md-4.col-sm-4.col-xs-4.border {
@@ -309,6 +309,10 @@ div.col-md-6.col-sm-6.col-xs-6 > p {
   background-image: url("../images/drilling-tower.jpg");
 }
 
+.bg-image-szondatesztelo {
+  background-image: url("../images/szondatesztelo.jpg");
+}
+
 .bg-image-kornyezetvedelmiszigeteles {
   background-image: url("../images/kornyezetvedelmiszigeteles.png");
 }
@@ -334,7 +338,7 @@ div.col-md-6.col-sm-6.col-xs-6 > p {
 }
 
 .bg-sky1 {
-  background-image: url("../images/sky1.png");
+  background-image: url("../images/sky1.jpeg");
 }
 
 .bg-talajfuro {

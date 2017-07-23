@@ -1,4 +1,4 @@
-@media(min-width:1201px) {
+@media(min-width:1000px) {
     .navbar {
         padding: 20px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -47,7 +47,7 @@
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 999px) {
     .navbar-header {
         float: none;
     }

@@ -30,10 +30,13 @@
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
     <script type="js/enviz.js"></script>
-    <link rel="stylesheet" href="css/scrolling-nav.css">
-    <link rel="stylesheet" href="css/enviz.css">
-    <link rel="stylesheet" href="css/hover-min.css" media="all">
-    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="./css/scrolling-nav.css">
+    <link rel="stylesheet" href="./css/enviz.css">
+    <link rel="stylesheet" href="./css/hover-min.css" media="all">
+    <link rel="stylesheet" href="./css/carousel.css">
+    <link rel="stylesheet" href="./css/gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -49,7 +52,6 @@
     <div class="container-fluid">
     <!-- Navigation -->
       <nav class="navbar navbar-default navbar-fixed-top box-shadow" role="navigation">
-        <div class="container">
             <div class="navbar-header page-scroll">
               <a class="navbar-brand" href="#" style="padding-top: 0; padding-right: 0 !important;"><img src="./images/logo.png" style="max-height: 50px; width: auto;"></a>
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -83,7 +85,6 @@
                     <li class="side-margins hvr-underline-from-left"><a class="nav-link" href="./contact.html">   Elérhetőségeink     </a>    </li>
                 </ul>
             </div>
-        </div>
       </nav>
     </div>
     <!-- ======================================================================================================================================================= -->
@@ -192,45 +193,39 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 col-sm-12 col-xs-12 text-center">
-            <h2>Képeink</h2>
+            <h2>Galéria</h2>
           </div>
         </div>
       </div>
     </div>
+
     <div class="container-fluid container-padding">
-      <div class="container">
         <div class="row">
-          <div class="col-md-3 text-center" style="padding: 2rem; padding-bottom: 1rem;">
+          <div class="col-md-4 col-sm-4 text-center" style="padding: 2rem; padding-bottom: 1rem;">
             <div class="bg-green color-white">
               <div class="galery-wrapper bg-image-galery bg-image-drilling1">
               </div>
               <h4 style="padding-bottom: 1rem;">Talajfúró berendezés</h4>
             </div>
           </div>
-          <div class="col-md-3 text-center" style="padding: 2rem; padding-bottom: 1rem;">
+          <div class="col-md-4 col-sm-4 text-center" style="padding: 2rem; padding-bottom: 1rem;">
             <div class="bg-green color-white">
-              <div class="galery-wrapper bg-image-galery bg-image-kornyezetvedelmiszigeteles">
+              <div class="galery-wrapper bg-image-galery bg-image-szondatesztelo">
               </div>
-              <h4 style="padding-bottom: 1rem;">Környezetvédelmi szigetelés</h4>
+              <h4 style="padding-bottom: 1rem;">Szondatesztelő berendezés</h4>
             </div>
           </div>
-          <div class="col-md-3 text-center" style="padding: 2rem; padding-bottom: 1rem;">
+          <div class="col-md-4 col-sm-4 text-center" style="padding: 2rem; padding-bottom: 1rem;">
             <div class="bg-green color-white">
               <div class="galery-wrapper bg-image-galery bg-image-telephely">
               </div>
               <h4 style="padding-bottom: 1rem;">Telephelyünk</h4>
             </div>
           </div>
-          <div class="col-md-3 text-center" style="padding: 2rem; padding-bottom: 1rem;">
-            <div class="bg-green color-white">
-              <div class="galery-wrapper bg-image-galery bg-image-drilling1">
-              </div>
-              <h4 style="padding-bottom: 1rem;">Talajfúró berendezés</h4>
-            </div>
-          </div>
         </div>
-      </div>
     </div>
+    
+
     <div class="container-fluid container-padding">
       <div class="container">
         <div class="row">
@@ -280,12 +275,13 @@
     <!-- ======================================================================================================================================================= -->
     <!-- Képek szekció vége -->
 
+
+
     <!-- Start of Footer -->
     <!-- ======================================================================================================================================================= -->
     <div class="container-fluid bg-blue-grey color-white padding-md footer-align">
       <footer>
         <div class="row">
-          <div class="container">
             <div class="col-md-4">
               <h3 class="footer-header-margin color-green text-uppercase text-center">Információk</h3>
 
@@ -318,18 +314,17 @@
               </div>
 
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 text-center">
               <h3 class="footer-header-margin color-green text-uppercase text-center">Térkép</h3>
               <iframe id="map" style="width: 34rem; height: 20rem; object-postition: center;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2699.0687070450613!2d21.151018215832657!3d47.43010360814643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4747212e64a9a7a7%3A0xd898b8692f671bbe!2zTsOhZHVkdmFyLCBLw7Z2eSBTw6FuZG9yIHV0Y2EgMzUsIDQxODE!5e0!3m2!1shu!2shu!4v1498844739531" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 text-center">
               <h3 class="footer-header-margin color-green text-uppercase text-center">Elérhetőségeink</h3>
                 <i class="fa fa-map-marker footer-item">&nbsp&nbsp&nbsp&nbsp <span class="arial-font">Telephely: 4181 Nádudvar, Kövy Sándor utca 35.</span></i><br>
                 <i class="fa fa-phone footer-item">&nbsp&nbsp&nbsp&nbsp <span class="arial-font">Telefon: +36 20 42 69 551</span></i><br>
                 <i class="fa fa-envelope footer-item">&nbsp&nbsp&nbsp&nbsp <span class="arial-font">E-Mail: enviz.kft@invitel.hu</span></i><br>
                 <i class="fa fa-fax footer-item">&nbsp&nbsp&nbsp&nbsp <span class="arial-font">FAX: +36 54 886 708</span></i>
             </div>
-          </div>
         </div>
       </footer>
     </div>
