@@ -29,7 +29,8 @@
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
-    <script type="js/enviz.js"></script>
+    <script src="js/enviz.js"></script>
+    <script src="js/parallax.min.js"></script>
     <link rel="stylesheet" href="css/scrolling-nav.css">
     <link rel="stylesheet" href="css/enviz.css">
     <link rel="stylesheet" href="css/hover-min.css" media="all">
@@ -51,13 +52,14 @@
       <nav class="navbar navbar-default navbar-fixed-top box-shadow" role="navigation">
         <div class="container">
             <div class="navbar-header page-scroll">
+              <a class="navbar-brand" href="#" style="padding-top: 0; padding-right: 0 !important;"><img src="./images/logo.png" style="max-height: 50px; width: auto;"></a>
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll text-uppercase side-margins" href="./index.html">Envíz Kft.</a>
+                <a class="navbar-brand page-scroll text-uppercase side-margins" href="./index.html" style="padding-left: 0 !important;">Envíz Kft</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -95,11 +97,11 @@
 
     <!-- Talajszondás rendszer technológiai leírása -->
     <!-- ======================================================================================================================================================= -->
-    <div class="container-fluid bg-image bg-drilling-tower">
+    <div class="container-fluid bg-image bg-drilling-tower" >
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <h2 class="text-center color-white text-uppercase" style="margin: 15rem auto !important; font-weight: bold;">Talajszondás rendszer</h2>
+            <h2 class="text-center color-white text-uppercase" style="margin: 15rem auto !important; font-weight: bold;">Talajszondás rendszer technológiai leírása</h2>
           </div>
         </div>
       </div>
@@ -109,39 +111,68 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <h2 class="text-center" style="padding-bottom: 2rem;" >Méretezés, szondateszt, hidraulika, engedély</h2>
+            <h2 class="text-center" style="padding-bottom: 2rem;" >Geotermikus hőszivattyús rendszerek csoportosítása a hőnyerés módja szerint</h2>
           </div>
-          <div class="col-md-8" style="border-left: 2px solid #7fb714; padding-top: 1rem;">
+          <div class="col-md-8" style="border-left: 2px solid #7fb714; padding-top: 2rem; padding-bottom: 2rem;">
             <p>
-              Egy talajszondás hőszivattyús rendszer tervezése összetett feladat. Részben geológiai és részben épületgépészeti vonatkozásai vannak.
-              Cégünk a VDI 4640 német szavány előírásai szerint méretezi a talajszonda mezőket. A hőszivattyús rendszerekhez kapcsolódó földhőszonda méretezését a talaj hővezető képességének pontos ismerete határozza meg.
-              Ezeket az értékeket vagy egyedileg készített szondateszt eredményből, vagy a folyamatosan bővülő adatbázisunkból nyerjük, mely korábbi teszteredmények alapján készül.
-              A tervezés másik fontos eleme a hidraulikai méretezés. A hidraulikai méretezés alapján kell biztosítanunk a talajszondában a turbulens áramlást, nagy csődimenziókkal a lehető legalacsonyabb ellenállást (alacsony szivattyú munkát),
-              a fagyvédelmet a lehető legkevesebb fagyállóval és a hőszivattyú hőcserélőjében a megfelelő áramlást. Erre a feladatra saját fejlesztésű számító szoftvert alkalmazunk, mely együtt veszi figyelembe az itt leírt szempontokat.
+              A geotermikus hőszivattyús rendszereknél a hőkinyerés a földből rendszerint víz vagy fagyálló folyadék közvetítésével történik.
+              A hőközvetítő folyadék keringhet egy zárt csőrendszerben amely a föld alatt, tó felszíne alatt, vagy folyóvízben van elhelyezve. Illetve megfelelő kezelés
+              mellett felhasználhatjuk közvetlenül a talajból származó természetes vizet. A hőnyerés módját abban az esetben nevezzük zárt rendszernek, ha a környezetből
+              csak hőkivétel történik a telepített csőrendszeren  keresztül, ha vízkivétel történik, melynek a hője hasznosításra kerül nyitott rendszerről beszélünk.
             </p>
           </div>
         </div>
       </div>
     </div>
 
-        <div class="container-fluid bg-grey padding-container-tech">
+    <div class="container-fluid bg-light-grey padding-container-tech">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2 class="text-center" style="padding-bottom: 2rem;" >Méretezés, szondateszt, hidraulika</h2>
+          </div>
+          <div class="col-md-8" style="border-left: 2px solid #7fb714; padding-top: 1rem;">
+            <p>
+              Egy talajszondás hőszivattyús rendszer tervezése összetett feladat. Részben geológiai és részben épületgépészeti vonatkozásai vannak.
+              Cégünk a VDI 4640 német szavány előírásai szerint méretezi a talajszonda mezőket. A hőszivattyús rendszerekhez kapcsolódó földhőszonda méretezését
+              a talaj hővezető képességének pontos ismerete határozza meg.
+              Ezeket az értékeket vagy egyedileg készített szondateszt eredményből, vagy a folyamatosan bővülő adatbázisunkból nyerjük, mely korábbi teszteredmények alapján készül.
+            </p>
+            <p>
+              A tervezés másik fontos eleme a hidraulikai méretezés. A hidraulikai méretezés alapján kell biztosítanunk a talajszondában a turbulens áramlást,
+              nagy csődimenziókkal a lehető legalacsonyabb ellenállást (alacsony szivattyú munkát), a fagyvédelmet a lehető legkevesebb fagyállóval és a hőszivattyú
+              hőcserélőjében a megfelelő áramlást. Erre a feladatra saját fejlesztésű számító szoftvert alkalmazunk, mely együtt veszi figyelembe az itt leírt szempontokat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <div class="container-fluid bg-white padding-container-tech">
           <div class="container">
             <div class="row">
               <div class="col-md-4">
-                <h2 class="text-center" style="padding-bottom: 2rem;">Bányakapitánysági engedélyeztetés</h2>
+                <h2 class="text-center" style="padding-bottom: 2rem;">Kormányhivatal bányafelügyeleti főosztály engedélyeztetés</h2>
               </div>
               <div class="col-md-8" style="border-left: 2px solid #7fb714; padding-top: 1rem;">
                 <p>
-                  Magyarországon a talajszonda rendszereket a Bányakapitányságnál (5 regionális hatóság) kell engedélyeztetni.
-                  Ez a hatóság szükség esetén bevonja a még érintett egyéb szakhatóságokat az eljárásba. Cégünk a sorozatos engedélyeztetések
-                  okán minden regionális kapitánysággal munkakapcsolatban áll és folyamatos egyeztetés alapján gyors és hatékony eljárást tud biztosítani üzleti partnereinek.
+                  Magyarországon a talajszonda rendszereket a Bányakapitányságnál (5 regionális hatóság) kell engedélyeztetni. Ez a hatóság szükség esetén bevonja a
+                  még érintett egyéb szakhatóságokat az eljárásba. Cégünk a sorozatos engedélyeztetések okán minden regionális kapitánysággal munkakapcsolatban áll
+                  és folyamatos egyeztetés alapján gyors és hatékony eljárást tud biztosítani üzleti partnereinek.
+                </p>
+                <p>
+                  A 20m mélységet el nem érő fúrásoknál egy bejelentési dokumentációt kell összeállítani az 53/2012. Kormányrendeletnek megfelelően.
+                  A munkák befejeztével pedig az használatbavételt kell bejelenteni az illetékes Bányászati Osztály felé. A bejelentésnek nincs eljárási díja a Kormányhivatal felé és
+                  nem kell bányászati e-naplót vezetni. A 20m-t meghaladó fúrásokhoz létesítési/építési engedélyt kell kérni az illetékes Bányászati Osztálytól.
+                  A fúrás munkákat 2016. október 1-től ún. bányászati e-naplóban kell vezetni. A munkák befejeztével a szondarendszer üzemeltetéséhez használatbavételi engedélyt kell
+                  kérni a Bányászati Osztálytól. A létesítési és használatbavételi engedélynek is 113.000.-Ft az eljárási díja, melyet a Kormányhivatal felé kell befizetni.
                 </p>
               </div>
             </div>
           </div>
         </div>
 
-      <div class="container-fluid bg-white padding-container-tech">
+      <div class="container-fluid bg-light-grey padding-container-tech">
           <div class="container">
             <div class="row">
               <div class="col-md-4">
@@ -149,21 +180,20 @@
               </div>
               <div class="col-md-8" style="border-left: 2px solid #7fb714; padding-top: 1rem;">
                 <p>
-                  Geotermikus talajszondák fúrását általában két technológia felhasználásával végezzük.
-                  A könnyebben fúrható talajrétegek esetében vízöblítéses technológiát alkalmazunk, melynek során a fúrószár belsejében áramlik lefelé a fúrófolyadék,
-                  majd a fúrószár mellett felfelé haladva tör a felszínre. Ez a fúrófolyadék hozza fel (mossa ki) a kifúrt anyagot (fúróiszap). Ezt a keringtetést a fúróiszap szivattyú végzi.
-                  A fúrófej többféle lehet a fúrási nehézség szerint. Vízöblítéses fúrás esetében 3 kategóriát különböztetünk meg a nehézségi fok szerint.
-                  A fúrási kategóriák között jelentős időbeli, szerszám használati, így árkülönbség van.
-                  A köves, sziklás területeken csak légöblítéses (kalapácsos) technológia alkalmazható. Ebben az esetben az öblítést,
-                  azaz a kifúrt anyag felszínre kerülését a fúrószár belsejében generált légnyomás biztosítja. A szükséges légnyomást kompresszorral állítjuk elő és a fúrást,
-                  azaz a kőréteg bontását ütvefúrással végezzük. Ez a technológia a kiegészítő berendezések, a többlet energia illetve a sokkal hosszabb technológiai időigénye miatt jelentősen költségesebb.
+                  Geotermikus talajszondák fúrását általában két technológia felhasználásával végezzük. A könnyebben fúrható talajrétegek esetében vízöblítéses technológiát alkalmazunk,
+                  melynek során a fúrószár belsejében áramlik lefelé a fúrófolyadék, majd a fúrószár mellett felfelé haladva tör a felszínre. Ez a fúrófolyadék hozza fel (mossa ki) a
+                  kifúrt anyagot (fúróiszap). Ezt a keringtetést a fúróiszap szivattyú végzi. A fúrófej többféle lehet a fúrási nehézség szerint. Vízöblítéses fúrás esetében 3 kategóriát
+                  különböztetünk meg a nehézségi fok szerint. A fúrási kategóriák között jelentős időbeli, szerszám használati, így árkülönbség van. A köves, sziklás területeken csak
+                  légöblítéses (kalapácsos) technológia alkalmazható. Ebben az esetben az öblítést,  azaz a kifúrt anyag felszínre kerülését a fúrószár belsejében generált légnyomás biztosítja.
+                  A szükséges légnyomást kompresszorral állítjuk elő és a fúrást, azaz a kőréteg bontását ütvefúrással végezzük. Ez a technológia a kiegészítő berendezések,
+                  a többlet energia illetve a sokkal hosszabb technológiai időigénye miatt jelentősen költségesebb.
                 </p>
               </div>
             </div>
           </div>
       </div>
 
-      <div class="container-fluid bg-grey padding-container-tech">
+      <div class="container-fluid bg-white padding-container-tech">
         <div class="container">
           <div class="row">
             <div class="col-md-4">
@@ -171,16 +201,16 @@
             </div>
             <div class="col-md-8" style="border-left: 2px solid #7fb714; padding-top: 1rem;">
               <p>
-                Munkáink során csak és kizárólag olyan anyagokat használunk és telepítünk, melyek európai minősítéssel rendelkeznek.
-                A talajszondák anyaga a legmagasabb minőségi követelményeknek és előírásoknak is megfelelnek, illetve teljesítik a
-                német VDI4640 geotermikus szabvány előírásait. Jelen ajánlatunkban REHAU gyártmányú talajszondákat kínálunk beépítésre.
+                Munkáink során csak és kizárólag olyan anyagokat használunk és telepítünk, melyek európai minősítéssel rendelkeznek. A talajszondák anyaga a
+                legmagasabb minőségi követelményeknek és előírásoknak is megfelelnek, illetve teljesítik a német VDI4640 geotermikus szabvány előírásait.
+                Jelen ajánlatunkban REHAU gyártmányú talajszondákat kínálunk beépítésre.
               </p>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="container-fluid bg-white padding-container-tech">
+      <div class="container-fluid bg-light-grey padding-container-tech">
         <div class="container">
           <div class="row">
             <div class="col-md-4">
@@ -188,16 +218,16 @@
             </div>
             <div class="col-md-8" style="border-left: 2px solid #7fb714; padding-top: 1rem;">
               <p>
-                A német VDI4640-es szabvány pontosan rögzíti, hogy a furatot, a szonda elhelyezés után milyen módon kell kitölteni,
-                azaz tömedékelni. A tömedékelésnek két fontos szerepe is van, mégpedig a talaj-rétegek egymástól való elválasztása
-                (környezetvédelmi szempont), a másik pedig a jó hővezetés. A furatok tömedékelése kivétel nélkül a VDI4640 szerint, alulról felfelé történik, a teljes kitöltés érdekében.
+                A német VDI4640-es szabvány pontosan rögzíti, hogy a furatot, a szonda elhelyezés után milyen módon kell kitölteni, azaz tömedékelni.
+                A tömedékelésnek két fontos szerepe is van, mégpedig a talaj-rétegek egymástól való elválasztása (környezetvédelmi szempont), a másik pedig a jó hővezetés.
+                A furatok tömedékelése kivétel nélkül a VDI4640 szerint, alulról felfelé történik, a teljes kitöltés érdekében.
               </p>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="container-fluid bg-grey padding-container-tech">
+      <div class="container-fluid bg-white padding-container-tech">
         <div class="container">
           <div class="row">
             <div class="col-md-4">
@@ -206,16 +236,17 @@
             <div class="col-md-8" style="border-left: 2px solid #7fb714; padding-top: 1rem;">
               <p>
                 A fúrás és tömedékelés mellett nagy jelentőséget tulajdonítunk a talajszondák szakszerű összekötésének. A műanyag hegesztéseket elektrofittingekkel végezzük.
-                A vízszintes összekötéseket a talajszint alatt 1 m-rel vezetjük. A -1 m-es mélység biztosítja a külső hatásokkal szembeni biztonságot,
-                illetve hőtechnikai szempontból kizárja a veszteségeket. A vízszintes összekötések is PE100 RC anyagból készülnek, mely egy jelentősen ellenálló  anyagminőség és nem igényel homokterítést. Ennek ellenére amennyiben a talajminőség indokolja,
-                a vízszintes összekötéseket homokágyban vezetjük. A vízszintes összekötések felett 20-50 cm-rel zöld jelzőszalagot helyezünk el.
+                A vízszintes összekötéseket a talajszint alatt 1 m-rel vezetjük. A -1 m-es mélység biztosítja a külső hatásokkal szembeni biztonságot, illetve
+                hőtechnikai szempontból kizárja a veszteségeket. A vízszintes összekötések is PE100 RC anyagból készülnek, mely egy jelentősen ellenálló  anyagminőség és nem igényel
+                homokterítést. Ennek ellenére amennyiben a talajminőség indokolja, a vízszintes összekötéseket homokágyban    vezetjük. A vízszintes összekötések felett 20-50 cm-rel
+                zöld jelzőszalagot helyezünk el.
               </p>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="container-fluid bg-white padding-container-tech">
+      <div class="container-fluid bg-light-grey padding-container-tech">
         <div class="container">
           <div class="row">
             <div class="col-md-4">
@@ -223,18 +254,17 @@
             </div>
             <div class="col-md-8" style="border-left: 2px solid #7fb714; padding-top: 1rem;">
               <p>
-                A geotermikus rendszerek telepítése során a talajköri osztó-gyűjtőknek két fajtáját szoktuk alkalmazni. Magasabb szondaszám esetén az épületen kívül, földben elhelyezett
-                osztó-gyűjtő aknát, míg kevesebb szonda esetén az épületen belül elhelyezett, előre szerelt osztó-gyűjtőt alkalmazunk.
-                A megfelelő, gazdaságos és biztonságos üzem megvalósítására minden egységet hőmérséklet és nyomásmérő műszerekkel, és elzáró szerelvényekkel látunk el,
-                valamint szonda körönként - a beszabályozáshoz szükséges - rotaméteres térfogatáram mérőket, és gömbcsapokat szerelünk fel.
-                A rotaméteres beállító egység 5-42 l/min értékek közötti beállítást tesz lehetővé.
+                A geotermikus rendszerek telepítése során a talajköri osztó-gyűjtőknek két fajtáját szoktuk alkalmazni. Magasabb szondaszám esetén az épületen kívül,
+                földben elhelyezett osztó-gyűjtő aknát, míg kevesebb szonda esetén az épületen belül elhelyezett, előre szerelt osztó-gyűjtőt alkalmazunk. A megfelelő,
+                gazdaságos és biztonságos üzem megvalósítására minden egységet hőmérséklet és nyomásmérő műszerekkel, és elzáró szerelvényekkel látunk el, valamint szonda körönként -
+                 beszabályozáshoz szükséges - rotaméteres térfogatáram mérőket, és gömbcsapokat szerelünk fel. A rotaméteres beállító egység 5-42 l/min értékek közötti beállítást tesz lehetővé.
               </p>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="container-fluid bg-grey padding-container-tech">
+      <div class="container-fluid bg-white padding-container-tech">
         <div class="container">
           <div class="row">
             <div class="col-md-4">
@@ -243,16 +273,15 @@
             <div class="col-md-8" style="border-left: 2px solid #7fb714; padding-top: 1rem;">
               <p>
                 Az osztó-gyűjtőtől induló gerincvezeték közvetíti az összegyűjtött hőt a hőközpont felé. Ez a vezetékpár is PE100 anyagból készül, elektrofittinges, hegesztett kötésekkel.
-                Az épületbe történő bevezetésnél a szakszerű falátvezetéshez előre elhelyezett védőcső szükséges.
-                A védőcső és a haszoncső között gumiharang, vagy előfeszíthető gumitömítéses tömítőelem biztosítja a vízzáróságot.
-                Ajánlatunk nem tartalmazza a szükséges tömítőelemet és az épületszerkezetbe beépítendő vak- vagy védőcsövet.
+                Az épületbe történő bevezetésnél a szakszerű falátvezetéshez előre elhelyezett védőcső szükséges. A védőcső és a haszoncső között gumiharang, vagy előfeszíthető gumitömítéses
+                tömítőelem biztosítja a vízzáróságot.
               </p>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="container-fluid bg-white padding-container-tech">
+      <div class="container-fluid bg-light-grey padding-container-tech">
         <div class="container">
           <div class="row">
             <div class="col-md-4">
@@ -260,9 +289,9 @@
             </div>
             <div class="col-md-8" style="border-left: 2px solid #7fb714; padding-top: 1rem;">
               <p>
-                A rendszer fagyálló feltöltését ipari feltöltő berendezéssel végezzük, hosszú keringtetéssel, így biztosítjuk a
-                lehetőségekhez mért legkevesebb mikrobuborékot a fagyálló folyadékban. A fagyállóság mértéke függ a számításokban szereplő fűtési primer hőmérsékletektől,
-                valamint az aktuálisan ajánlott hőszivattyú gyártói előírásától. A szükséges fagyálló folyadékot ajánlatunk tartalmazza.
+                A rendszer fagyálló feltöltését ipari feltöltő berendezéssel végezzük, hosszú keringtetéssel, így biztosítjuk a lehetőségekhez mért legkevesebb mikrobuborékot a fagyálló folyadékban.
+                A fagyállóság mértéke függ a számításokban szereplő fűtési primer hőmérsékletektől, valamint az aktuálisan ajánlott hőszivattyú gyártói előírásától.
+                A szükséges fagyálló folyadékot ajánlatunk tartalmazza.
               </p>
             </div>
           </div>

@@ -35,7 +35,7 @@
     text-align: center;
   }
   .border-right-green {
-    border-left: 2px solid #7fb714;
+    border-left: 2px solid #80deea;
   }
   div.col-md-6.border-left.b-green.mobile {
     border-left-width: 3px;
@@ -74,7 +74,7 @@
     margin-bottom: 5rem;
   }
   .border-right-green {
-    border-right: 2px solid #7fb714;
+    border-right: 2px solid #80deea;
   }
 
   div.col-md-4.col-sm-4.col-xs-4.border {
@@ -121,6 +121,35 @@ body {
 }
 
 
+.test {
+  font-size: 1.6rem;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.test-image {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.test-container:hover .test-image {
+  opacity: 0.3;
+}
+
+.test-container:hover {
+  background-color: white !important;
+}
+
+.test-container:hover .test {
+  opacity: 1;
+}
 
 .text-bold {
   font-weight: bold;
@@ -243,6 +272,18 @@ div.col-md-6.col-sm-6.col-xs-6 > p {
   height: auto;
 }
 
+.carousel-image {
+  filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+  filter: gray; /* IE5+ */
+  -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+  -webkit-transition: all .5s ease-in-out;
+}
+
+.carousel-image:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.1);
+}
 .bg-image-carousel {
   background: url("") no-repeat 50% 50% fixed;
   -webkit-background-size: cover;
@@ -273,6 +314,10 @@ div.col-md-6.col-sm-6.col-xs-6 > p {
 
 .bg-image-telephely {
   background-image: url("../images/Telephely.jpg");
+}
+
+.bg-image-kornyezetvedelmi-szig {
+  background-image: url("../images/kornyezetvedelmi-szig.jpg");
 }
 
 .bg-image-drilling1 {
@@ -463,7 +508,7 @@ A legördülő menü ha kinyílik a következő formázásokat alkalmazzuk:
 }
 
 .b-green {
-  border-color: #7fb714;
+  border-color: #80deea;
 }
 
 /*.protfolio-image {
